@@ -1,7 +1,6 @@
-default:
-if (isDigit(c)) {
-number();
-} else {
-Lox.error(line, "Unexpected character.");
+#include <stdio.h>
+int main(void)
+{
+  printf("I want to actually fucking kill myself");
+  return 0;
 }
-break;
