@@ -13,10 +13,10 @@ for(int i = 1; i<=5; i++)
         array[j] = temp;
     }
 }
-for (size_t i = 0; i < 5; i++)
+for (int k = 0; k < 5; k++)
 {
-    printf("%d ", array[i]);
+    printf("%d ", array[k]);
 }
-
+return 0;
 }
 }  
