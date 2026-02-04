@@ -29,7 +29,7 @@ for(int i = 0; i < array_size; i++)
 }
 
 // Sorting the array
-for(int i = 1; i < array_size-1 ; i++) 
+for(int i = 0; i < array_size-1 ; i++) 
 {for (int j = 0; j < array_size-1-i ; j++) 
  {  
  if(array[j]>array[j+1])
