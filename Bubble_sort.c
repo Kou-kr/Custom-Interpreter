@@ -24,6 +24,7 @@ for(int i = 0; i < array_size; i++)
     if(scanf("%d", &array[i]) != 1)
     {
         printf("please enter a valid integer.\n");
+        while(getchar() != '\n'); // clear invalid inputs
         i--;
     }
 }
