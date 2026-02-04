@@ -5,6 +5,7 @@ int array[30];
 printf("Enter 10 numbers to sort: \n");
 for(int i = 0; i < 10; i++)
 {
+    printf("Number %d: ", i+1);
     scanf("%d", &array[i]);
 }
  int sizeofarray = sizeof(array)/sizeof(array[0]);
