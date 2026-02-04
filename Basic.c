@@ -2,11 +2,11 @@
 int main() 
 {
 int array[30];
-printf("Enter 10 numbers to sort: \n");
-for(int i = 0; i < 10; i++)
+printf("Enter 30 numbers to sort: \n");
+for(int h = 0; h < 30; h++)
 {
-    printf("Number %d: ", i+1);
-    scanf("%d", &array[i]);
+    printf("Number %d: ", h+1);
+    scanf("%d", &array[h]);
 }
  int sizeofarray = sizeof(array)/sizeof(array[0]);
 for(int i = 1; i < sizeofarray ; i++) 
